@@ -1,5 +1,5 @@
 {
-	"name": "estree-walker",
+	"name": "@benpsnyder/estree-walker",
 	"description": "Traverse an ESTree-compliant AST",
 	"version": "3.0.3",
 	"private": false,
@@ -8,6 +8,9 @@
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Rich-Harris/estree-walker"
+	},
+	"publishConfig": {
+		"access": "public"
 	},
 	"type": "module",
 	"module": "./src/index.js",
